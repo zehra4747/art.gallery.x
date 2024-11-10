@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    color: aliceblue;
+    background-color: #0a1128;
+    background-image: url("/wall9.jpg"); /* Replace with your image path */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-attachment: fixed; 
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    
+  }
+}
+
+@layer components {
+  .menuLink {
+    @apply cursor-pointer hover:text-[#f3e73f];
+  }
+}
